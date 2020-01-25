@@ -1,0 +1,91 @@
+.flex-hrsntl {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 12rem;
+  color: #7ACEC3;
+  font-size: 1.8rem;
+}
+
+svg {
+  position: absolute;
+}
+
+h2 {
+  position: absolute;
+  text-transform: uppercase;
+  color: #FEFEFE;
+  font-size: 4.8rem;
+  font-weight: 400;
+  bottom: 10rem;
+  left: 45%;
+}
+
+.model {
+  text-transform: uppercase;
+  color: #333333;
+
+  &-title {
+    font-size: 2.4rem;
+    line-height: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 1.7rem;
+  }
+
+  &-description {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: 300;
+  }
+}
+
+.view-project {
+  display: flex;
+  flex-direction: column;
+  width: 14rem;
+  align-items: center;
+
+  .vp {
+    display: flex;
+    cursor: pointer;
+
+    .arrow-icon {
+      width: 2rem;
+      margin-right: 1rem;
+      transition: all .1s;
+    }
+
+    p {
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 1.8rem;
+      color: #333333;
+      font-weight: 300;
+    }
+
+    &:hover {
+      .arrow-icon {
+        transform: translateX(1rem);
+      }
+    }
+
+    &:active {
+      .arrow-icon {
+        transform: translateX(-1rem);
+      }
+    }
+  }
+
+  .heart {
+    width: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  span {
+    color: #FF5555;
+  }
+}

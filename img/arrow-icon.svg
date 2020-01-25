@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 38" width="44" height="38">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ebb240 } 
+	</style>
+	<path id="arrow icon" class="shp0" d="M40 18L2 18L2 20L40 20L40 18ZM23.97 32.57L38.57 17.97L40.03 19.43L25.43 34.03L23.97 32.57ZM23.97 5.43L38.57 20.03L40.03 18.57L25.43 3.97L23.97 5.43Z" />
+</svg>
